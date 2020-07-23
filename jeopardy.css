@@ -1,0 +1,85 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: auto;
+	font-size: 12px;
+	padding: 20px;
+	background-color:rgb(58, 58, 58);
+}
+
+#board {
+	margin: auto;
+	width: 900px;
+}
+
+h1 {
+	font-size: 60px;
+	margin-top: 100px;
+}
+
+.v {
+	font-size: 45px;
+	color: darkgray;
+}
+
+#info {
+	margin: auto;
+	width: 900px;
+	margin-bottom: 50px;
+}
+
+th {
+	width: 230px;
+	height: 100px;
+	color: rgb(31, 31, 58);
+	background-color: rgb(143, 143, 255);
+}
+
+td {
+	width: 230px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgb(238, 238, 238);
+}
+
+td:hover {
+	background-color: white;
+}
+
+.green {
+	width: auto;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #3CFFA3;
+	color: #125234;
+	pointer-events: none;
+}
+
+#loading {
+	font-size: 24px;
+	color: #3CFFA3;
+	margin-top: 45vh;
+	text-align: center;
+}
+
+#restart-game, #start-game {
+	display: block;
+	width: 900px;
+	margin: auto;
+	border: none;
+	outline: none;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+#start-game:hover, #restart-game:hover {
+	background-color: #3CFFA3;
+	color: black;
+}
+
+#restart-game:active, #start-game:active  {
+	background-color: #37e795;
+	color: black;
+}
